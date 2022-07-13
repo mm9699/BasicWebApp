@@ -14,10 +14,8 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
             return "MyTeam";
         } else if (query.contains("largest")) {
+
             return "726";
-        } else if (query.contains("plus")) {
-            String[] a = query.split(" ");
-            return a[a.length - 1] + a[a.length - 3];
         }
         else if (query.contains("plus")) {
             String[] a = query.split(" ");
