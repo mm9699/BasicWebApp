@@ -18,7 +18,12 @@ public class QueryProcessor {
         } else if (query.contains("plus")) {
             String[] a = query.split(" ");
             return a[a.length - 1] + a[a.length - 3];
-        } else { // TODO extend the programm here
+        }
+        else if (query.contains("plus")) {
+            String[] a = query.split(" ");
+            return ""+Integer.parseInt(a[a.length - 1]) + Integer.parseInt(a[a.length - 3]);
+        }
+        else { // TODO extend the programm here
             return "";
         }
     }
