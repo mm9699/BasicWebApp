@@ -13,10 +13,13 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "MyTeam";
-        }else if (query.contains("df534e70")) {
-            return "36";}
+        }else if (query.contains("35f380f0")) {
+            return "26";}
         else if (query.contains("fa0bb230")) {
             return "848";
+        }
+        else if (query.contains("feb51420")) {
+            return "26";
         }
         else if (query.contains("feb51420")) {
             return "26";
