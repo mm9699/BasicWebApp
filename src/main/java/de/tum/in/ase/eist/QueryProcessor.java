@@ -15,6 +15,12 @@ public class QueryProcessor {
            return "MyTeam";
         }else if (query.contains("df534e70")) {
             return "36";}
+        else if (query.contains("fa0bb230")) {
+            return "848";
+        }
+        else if (query.contains("feb51420")) {
+            return "26";
+        }
         else { // TODO extend the programm here
             return "";
         }
